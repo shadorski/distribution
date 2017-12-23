@@ -115,5 +115,6 @@ class OrderController extends Controller
         //disaable order
         $order->update(['status'=>false]);
         return redirect('/orders');
+        //sample change
     }
 }
